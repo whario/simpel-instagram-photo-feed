@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body{
+    background-color: hsl(0, 0%, 83%);
+    font-family: Lato;
+   
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.card{
+    width: 800px;
+    height: 700px;
+    background-color: #fdfdfd;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    background-color: #fdfdfd;
+    padding: 40px;
+   font-size: 48px;
+  
+}
+
+.cardHeader{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    padding: 20px;
+}
+
+.date{
+    width: 400px;
+    color: rgb(138, 138, 138);
+    text-align: right;
+    
+}
+
+h3{
+    width: 400px;
+}
+
+
+
+img{
+   width: 800px;
+}
+
+p{
+    padding: 10px 20px 20px 20px;
+}
+
+.cardSpace{
+    height: 40px;
+}
+
+.cardHeaderSpace{
+    height: 200px;
+}
